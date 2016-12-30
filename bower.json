@@ -1,0 +1,19 @@
+{
+  "name": "paul-smout",
+  "description": "just a simple personal site",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "webcomponentsjs": "^0.7.23",
+    "polymer": "Polymer/polymer#^1.7.0",
+    "zepto": "1.1.6"
+  }
+}

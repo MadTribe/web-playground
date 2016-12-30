@@ -1,0 +1,42 @@
+@mixin border-radius($radius) {
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+
+@mixin animation() {
+  -webkit-animation: $params;
+  -moz-animation: $params;
+  -o-animation: $params;
+  -ms-animation: $params;
+  animation: $params;
+}
+
+@mixin rotate( $degrees ) {
+  -webkit-transform: rotate(#{$degrees}deg);
+  -moz-transform: rotate(#{$degrees}deg);
+  -ms-transform: rotate(#{$degrees}deg);
+  -o-transform: rotate(#{$degrees}deg);
+  transform: rotate(#{$degrees}deg);
+ }
+
+
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content
+  }
+  @-moz-keyframes #{$name} {
+    @content
+  }
+  @-ms-keyframes #{$name} {
+    @content
+  }
+  @-o-keyframes #{$name} {
+    @content
+  }
+  @keyframes #{$name} {
+    @content
+  }
+}

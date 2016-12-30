@@ -1,0 +1,21 @@
+{
+  "name": "paul-smout",
+  "version": "1.0.0",
+  "description": "just a simple personal site",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "jquery": "^3.1.1",
+    "webpack-stream": "^3.2.0"
+  }
+}
