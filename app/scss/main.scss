@@ -34,11 +34,34 @@ nav {
 
 }
 
+.swingdrop {
+  transform-origin: 14% 0%;
+  transform: rotate( 60deg);
+  animation: drop .9s ease-in;
+}
+
+
 @keyframes blinker {
   50% { opacity: 0; }
 }
 
-.swingdrop {
-  
 
+@keyframes drop {
+  0%  { transform: rotate( 0deg); };
+  50%  { transform: rotate( 65deg); };
+  75%  { transform: rotate( 57deg); };
+  88%  { transform: rotate( 62deg); };
+  100% { transform: rotate( 60deg); };
 }
+
+// @include keyframes("drop") {
+//   0% { @include rotate( 0 ); }
+//   90% { @include rotate( 45 ); }
+//   100% { @include rotate( 40 ); }
+// }
+//
+//
+// .swingdrop {
+//   @include animation (blinker 2s ease-out infinite);
+//
+// }
