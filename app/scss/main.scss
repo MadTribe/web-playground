@@ -54,6 +54,37 @@ nav {
   100% { transform: rotate( 60deg); };
 }
 
+.humblebrag1 {
+  opacity:0;
+  position: relative;
+  top: 57%;
+  left: 24%;
+  width: 25%;
+  height: 10%;
+  color: lighten($paper_color, 60%);
+}
+.humblebrag2 {
+  opacity:0;
+  position: relative;
+  top: 64%;
+  left: 48%;
+  width: 22%;
+  height: 10%;
+  color: lighten($paper_color, 70%);
+}
+
+.visible {
+  opacity:1;
+  animation: show .4s ease-in;
+}
+
+@keyframes show {
+  0%  { opacity:0; };
+  100% { opacity:1; };
+}
+
+
+
 // @include keyframes("drop") {
 //   0% { @include rotate( 0 ); }
 //   90% { @include rotate( 45 ); }
