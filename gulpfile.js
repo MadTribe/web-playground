@@ -44,9 +44,9 @@ gulp.task('watch', function(){
 gulp.task('copy-static', function(){
     var rootHtml = gulp.src('app/*.html');
     var componentsHtml = gulp.src('app/**/*.html');
+    var images = gulp.src('app/**/*.svg');
 
-
-    return es.merge([rootHtml, componentsHtml])
+    return es.merge([rootHtml, componentsHtml, images])
           .pipe(gulp.dest('dist'));
 });
 

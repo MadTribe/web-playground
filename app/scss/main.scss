@@ -62,6 +62,9 @@ nav {
   width: 25%;
   height: 10%;
   color: lighten($paper_color, 60%);
+  background-image: url('../image/arrow.svg');
+  background-repeat: no-repeat;
+  background-size: container;
 }
 .humblebrag2 {
   opacity:0;
