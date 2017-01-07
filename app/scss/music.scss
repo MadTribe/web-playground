@@ -1,0 +1,48 @@
+@import 'normalize';
+@import 'mixins';
+@import 'colours';
+
+.container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: lighten($paper_color, 50%);
+}
+
+
+.note-graph {
+
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+
+}
+
+.guitar {
+  table {
+
+     tr {
+
+
+       td {
+         border-top-style: solid;
+         border-top-width: 1px;
+         border-top-color: black;
+
+         border-right-style: solid;
+         border-right-width: 1px;
+         border-right-color: red;
+
+
+      }
+     }
+     width: 100%;
+  }
+
+
+}
+
+.selected {
+  background-color: green;
+
+}

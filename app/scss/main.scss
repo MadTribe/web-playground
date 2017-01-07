@@ -1,6 +1,6 @@
 @import 'normalize';
 @import 'mixins';
-$paper_color : hsl(180, 24%, 12%);
+@import 'colours';
 
 html {
   font-family: "Open Sans",Arial,sans-serif;
